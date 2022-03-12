@@ -8,11 +8,11 @@ print("--- STARTED ---")
 status_led = Pin(25, Pin.OUT)
 status_led.value(1)
 
-rows.append(Pin(1, Pin.OUT))  # line1
-rows.append(Pin(2, Pin.OUT))  # line2
-rows.append(Pin(3, Pin.OUT))  # line3
-rows.append(Pin(4, Pin.OUT))  # line4
-rows.append(Pin(5, Pin.OUT))  # line5
+rows.append(Pin(1, Pin.OUT))  # row1
+rows.append(Pin(2, Pin.OUT))  # row2
+rows.append(Pin(3, Pin.OUT))  # row3
+rows.append(Pin(4, Pin.OUT))  # row4
+rows.append(Pin(5, Pin.OUT))  # row5
 
 for _ in range(12):
     for row in rows:
